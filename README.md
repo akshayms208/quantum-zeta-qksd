@@ -15,11 +15,11 @@ This repository explores that conjecture computationally. It takes **Sierra's Ru
 
 ---
 
-## 🏗️ Theoretical Architecture (How it Works)
+## 🏗️ Theoretical Architecture 
 
 This project is built on three main pillars:
 
-### 1. The Ab-Initio Prime Sieve (No Cheating!)
+### 1. The Ab-Initio Prime Sieve 
 To make this a true simulation, we cannot hardcode the known Riemann zeros into the system. Instead, the code features a custom "prime sieve" engine. It generates prime numbers from scratch, calculates a conditionally convergent phase correction (the fluctuating part of the Riemann counting function), and uses that raw prime data to construct the energy landscape of our system.
 
 ### 2. Sierra's Russian Doll Hamiltonian
